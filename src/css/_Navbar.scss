@@ -1,0 +1,17 @@
+.navbar{
+    height: 100px;
+    width: 100%;
+    background-color: yellow;
+}
+.home{
+    list-style: none;
+}
+.home li{
+    float: left;
+    margin-right: 20px;
+&:hover{
+border-bottom: 2px solid red;
+cursor: pointer;
+font-weight: bold;
+}
+}

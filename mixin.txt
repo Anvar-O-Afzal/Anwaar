@@ -1,0 +1,17 @@
+@mixin btn($size) {
+	@if ($size == {
+		
+	}
+}
+
+&:hover{
+	
+}
+INCLUDE:
+.btn{
+    @include btn(lg);
+}
+
+%text in css using
+@extend %text;
+
